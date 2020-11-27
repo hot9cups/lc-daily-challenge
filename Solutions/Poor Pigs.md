@@ -1,6 +1,7 @@
 <a href="https://leetcode.com/problems/poor-pigs/"> See the problem on leetcode </a>
 <details>
     <summary>Description</summary>
+    
     <div class="content__u3I1 question-content__JfgR">
         <div>
             <p>There are <code>buckets</code> buckets of liquid, where <strong>exactly one</strong> of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have <code>minutesToTest</code> minutes to determine which bucket is poisonous.</p>
@@ -34,10 +35,12 @@
             </ul>
         </div>
     </div>
+    
 </details>
 <details>
     <summary>Solution</summary>
-    ```
+	
+    ```java
     class Solution {
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
     	int tests = minutesToTest/minutesToDie;
@@ -51,6 +54,7 @@
     	}
     }
     ```
+    
 </details>
 <details>
     <summary>A word about the solution</Summary>
