@@ -35,22 +35,25 @@
         </div>
     </div>
 </details>
+
 <details>
     <summary>Solution</summary>
-    ```java
-    class Solution {
-    public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-    	int tests = minutesToTest/minutesToDie;
-    	int numPigs = 0;
-    	while (true){
-    		if (Math.pow(tests + 1, numPigs) >= buckets)
-    			break;
-    		numPigs++;
-    		}
-    	return numPigs;
-    	}
-    }
-    ```
+	
+```java
+class Solution {
+public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+int tests = minutesToTest/minutesToDie;
+int numPigs = 0;
+while (true){
+	if (Math.pow(tests + 1, numPigs) >= buckets)
+		break;
+	numPigs++;
+	}
+return numPigs;
+}
+}
+```
+
 </details>
 <details>
     <summary>A word about the solution</Summary>
