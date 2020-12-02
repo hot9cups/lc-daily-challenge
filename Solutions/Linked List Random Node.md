@@ -13,8 +13,7 @@ ListNode head = new ListNode(1);
 head.next = new ListNode(2);
 head.next.next = new ListNode(3);
 Solution solution = new Solution(head);
-
-
+<br>
 // getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
 solution.getRandom();
 </pre>
@@ -67,7 +66,7 @@ class Solution {
 
 <details>
     <summary>A word about the solution</Summary>
-    The O(n) time and space solution is trivial. O(1) space solution for infinite stream of numbers is obtained via Reservoir sampling, explained <a href = 'https://leetcode.com/problems/linked-list-random-node/solution/' here </a>.
+    The O(n) time and space solution is trivial. O(1) space solution for infinite stream of numbers is obtained via Reservoir sampling, explained <a href = 'https://leetcode.com/problems/linked-list-random-node/solution/'> here </a>.
     Might as well implement it and update the solution here soon(Tomorrow).
    
 </details>
