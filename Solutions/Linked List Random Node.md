@@ -71,7 +71,7 @@ class Solution {
 
 <details>
     <summary>A word about the solution</Summary>
-    The part where I tripped up was realising I needed to do <code>head.right = new TreeNode(root.val)</code> instead of <code>head.right = root</code> since root(root refers to a general node here) would still have its left and right subtrees. The official solution though does take that route(no pun intended) by cutting off the left links of the node. Check [this](https://leetcode.com/problems/increasing-order-search-tree/solution/)
+    The part where I tripped up was realising I needed to do <code>head.right = new TreeNode(root.val)</code> instead of <code>head.right = root</code> since root(root refers to a general node here) would still have its left and right subtrees. The official solution though does take that route(no pun intended) by cutting off the left links of the node. Check <a href = 'https://leetcode.com/problems/increasing-order-search-tree/solution/'>this</a>
 </details>
 
 
