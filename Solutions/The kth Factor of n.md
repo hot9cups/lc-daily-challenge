@@ -1,4 +1,4 @@
-<a href="https://leetcode.com/problems/the-kth-factor-of-n/submissions/"> See the problem on leetcode </a>
+<a href="https://leetcode.com/problems/the-kth-factor-of-n/"> See the problem on leetcode </a>
 <details>
    <summary>Description</summary>
    <div class="content__u3I1 question-content__JfgR"><div><p>Given two positive integers <code>n</code> and <code>k</code>.</p>
