@@ -62,6 +62,7 @@ class Solution {
 <details>
     <summary>A word about the solution</Summary>
     Well the solution works out, greedy is indeed the way to go here. The official solution had a neater if, I suppose:
+	
 ```java
 if (flowerbed[i] == 0 && (i == 0 || flowerbed[i - 1] == 0) && (i == flowerbed.length - 1 || flowerbed[i + 1] == 0)) {
   flowerbed[i++] = 1;
