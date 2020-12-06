@@ -145,6 +145,14 @@ to both left and right childs.)<br><br>
 So we start at the root and move down, recursively. There's one more thing to take care of, that we'd need to move down the right subtree first, and then through the left subtree.
 This is because when you're in the left subtree and you're trying to find next pointer for a certain node, you might end up searching in the right subtree of the main tree,
 but the right subtree wouldn't have been touched yet if we had travelled down the left subtree first, so essentially right subtree's next pointers for every node would still be null
-and we wouldn't be able to find the solution. The last 2 inputs I wrote above really helped realise that, would be worth to visualise those 2 inputs on the visualiser and understand it.
- 
+and we wouldn't be able to find the solution. The last 2 inputs I wrote above really helped realise that, would be worth to visualise those 2 inputs on the visualiser and understand it.<br>
+Hence the way to recurse through this would be
+```
+formNext(root.right);
+formNext(root.left);
+```
+
+Also, interestingly there was an earlier part to the question,<a href = 'https://leetcode.com/problems/populating-next-right-pointers-in-each-node/'>Here.</a>
+This one's far easier, it's a perfect binary tree. Since the second part that I solved above was a generalisation of part 1, it turns out pasting in the same code is
+Accepted for the question(Beats 100% too just like it did for part 2). That was nice. 
 </details>
