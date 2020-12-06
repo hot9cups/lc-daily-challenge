@@ -152,7 +152,7 @@ formNext(root.right);
 formNext(root.left);
 ```
 
-Also, interestingly there was an earlier part to the question,<a href = 'https://leetcode.com/problems/populating-next-right-pointers-in-each-node/'>Here.</a>
+Also, interestingly there was an earlier part to the question,<a href = 'https://leetcode.com/problems/populating-next-right-pointers-in-each-node/'> here.</a>
 This one's far easier, it's a perfect binary tree. Since the second part that I solved above was a generalisation of part 1, it turns out pasting in the same code is
 Accepted for the question(Beats 100% too just like it did for part 2). That was nice. 
 </details>
