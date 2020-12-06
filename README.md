@@ -29,6 +29,11 @@ Just a place to document my solutions for the daily challenges.
     <li>
       <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Can%20Place%20Flowers.md"> Dec 5 - Can Place Flowers </a>
     </li>
+    <li>
+      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md"> Dec 6 - Populating Next Right Pointers in Each Node II </a>
+    </li>
+    
+    
   </ul>
   
   
