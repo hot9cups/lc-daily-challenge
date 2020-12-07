@@ -30,10 +30,10 @@ Just a place to document my solutions for the daily challenges.
       <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Can%20Place%20Flowers.md"> Dec 5 - Can Place Flowers </a>
     </li>
     <li>
-      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md"> Dec 6 - Populating Next Right Pointers in Each Node II (Well and also Part 1)</a>
+      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md"> Dec 6 - Populating Next Right Pointers in Each Node II </a>(Well and also Part 1)
     </li>
     <li>
-      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Spiral%20Matrix%20II.md"> Dec 7 - Spiral Matrix II (Also part 1 and 3)</a>
+      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Spiral%20Matrix%20II.md"> Dec 7 - Spiral Matrix II </a>(Also part 1 and 3)
     </li>
     
     
