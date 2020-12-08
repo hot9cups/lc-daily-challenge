@@ -35,6 +35,8 @@ Just a place to document my solutions for the daily challenges.
     <li>
       <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Spiral%20Matrix%20II.md"> Dec 7 - Spiral Matrix II </a>(Also part 1 and 3)
     </li>
+    <li>
+      <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md"> Dec 8 - Pairs of Songs With Total Durations Divisible by 60 </a>(And a couple of other easy questions)
     
     
     
