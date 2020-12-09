@@ -37,7 +37,10 @@ Just a place to document my solutions for the daily challenges.
     </li>
     <li>
       <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md"> Dec 8 - Pairs of Songs With Total Durations Divisible by 60 </a>(And a couple of other easy questions)
-    
+    </li>
+    <li>
+       <a href ="https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Binary%20Search%20Tree%20Iterator.md"> Dec 9 - Binary Search Tree Iterator</a>
+    </li>
     
     
     
