@@ -109,6 +109,7 @@ class BSTIterator {
     <summary>A word about the solution</Summary>
 My solution isn't quite O(h) memory yet, it's only O(N) where N is number of nodes in the tree. There were talks about Controlled Morris Traversal, gotta read up on that.
 There was another nice solution, this:
+	
 ```java
 You can modify a non-recursive inorder traversal algo to solve the problem. Just separate the loop condition:
 
