@@ -41,6 +41,9 @@ Just a place to document my solutions for the daily challenges.
     <li>
        <a href ="https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Binary%20Search%20Tree%20Iterator.md"> Dec 9 - Binary Search Tree Iterator</a>
     </li>
+    <li>
+        <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Valid%20Mountain%20Array.md"> Dec 10 - Valid Mountain Array</a>
+    </li>
     
     
     
