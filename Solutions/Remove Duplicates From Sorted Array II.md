@@ -166,5 +166,4 @@ nums[] = [<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,
     <span class="hljs-keyword">return</span> i;
     }
 }
-</code></pre><p></p></div></div><div class="tag-list-container__2cDj"><div class="css-9sdfuf"><span class="css-vh6pmz">c++</span><span class="css-vh6pmz">java</span><span class="css-vh6pmz">explaination</span></div></div></div>
-</details>
+</code></pre>
