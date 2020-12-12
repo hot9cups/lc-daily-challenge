@@ -51,6 +51,8 @@ for (int i = 0; i &lt; len; i++) {
 
 <details>
 <summary>Solution</summary>
+	
+```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int end = 0;
@@ -91,29 +93,30 @@ class Solution {
     //also this:
     //https://stackoverflow.com/questions/14062118/pass-array-by-reference-in-java
 }
+```
 </details>
 
 <details>
     <summary>A word about the solution</Summary>
 There's neater solutions, for example <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/?currentPage=1&orderBy=most_relevant&query=general'> these.</a> 
 Also solved <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/'> this.</a> <br>
-Then there's <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/259484/Generalized-solution-with-explanation-in-C%2B%2B-and-Java'> this link which is 
+Then there's <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/259484/Generalized-solution-with-explanation-in-C%2B%2B-and-Java'> this link </a> which is 
 really really good. I'm actually just gonna paste the content here anyway.
 
-<div class="post-area__3YJL"><div class="root__3bcS"><a href="/siddhpurakaran" target="_blank"><img alt="siddhpurakaran's avatar" class="avatar__7D9c" src="https://assets.leetcode.com/users/siddhpurakaran/avatar_1553149162.png"></a><div><div><div class="user-info__2b-x"><span class="name__2jm2"><a href="/siddhpurakaran" target="_blank" class="link__Lpjq">siddhpurakaran</a></span><span class="reputation___jPr"><svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__3Su4"><path fill-rule="evenodd" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>66</span></div><div class="post-info__1K06"><p>March 21, 2019 2:00 PM</p><p class="view-count__dBuq">137 VIEWS</p></div></div></div></div><div class="content-area__2vnF"><div class="discuss-markdown-container"><p>Here i have been explained generalized solution for this problem which can be used for duplicates allowed at most K times.</p><p>
-</p><pre><code><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> {</span>
-<span class="hljs-keyword">public</span>:
-    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">removeDuplicates</span><span class="hljs-params">(<span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;&amp; nums, <span class="hljs-keyword">int</span> k)</span> </span>{
-        <span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>;
-        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> num : nums) {
-            <span class="hljs-keyword">if</span> (i &lt; k || num &gt; nums[i - k]) {
+```java
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums, int k) {
+        int i = 0;
+        for (int num : nums) {
+            if (i < k || num > nums[i - k]) {
                 nums[i++] = num;
             }
         }
-        <span class="hljs-keyword">return</span> i;
+        return i;
     }
-};
-</code></pre>
+}
+```
 <p></p><p>which will work as below</p><p>
 </p><pre><code>nums[] = [<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">1</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>]  k = <span class="hljs-number">1</span>
 
