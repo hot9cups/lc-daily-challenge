@@ -100,6 +100,53 @@ class Solution {
     <summary>A word about the solution</Summary>
     I'm a little surprised, caching actually slowed down the program, which is weird. The idea was to compare the left and right subtrees' depths and stop if they're equal,
     otherwise continue in the direction of the higher depth. Thought by caching, I wouldn't have to calculate the depth of a node repetitively, but it's weird how that slowed 
-    it down let alone speed it up. I'll have to take a look at the solution, and see what algorithm they propose.
+    it down let alone speed it up. I'll have to take a look at the solution, and see what algorithm they propose.<br><br> On second thoughts, just had a look at the code 
+    that beats 100%, which is this:
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode lcaDeepestLeaves(TreeNode root) {
+        TreeNode res = yle(root);
+        System.gc();
+        return res;
+    }
+    
+    private TreeNode yle(TreeNode root) {
+        int leftDepth = getDepth(root.left);
+        int rightDepth = getDepth(root.right);
+        if (leftDepth == rightDepth) {
+            return root;
+        } else if (leftDepth > rightDepth) {
+            return lcaDeepestLeaves(root.left);
+        } else {
+            return lcaDeepestLeaves(root.right);
+        }
+    }
+    
+    private int getDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return 1 + Math.max(getDepth(root.left), getDepth(root.right));
+    }
+}
+```
+
+Blimey. The exact same thing, sans the caching. Which means I'm not so off after all.
    
 </details>
