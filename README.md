@@ -46,7 +46,7 @@ Just a place to document my solutions for the daily challenges.
     </li>
     <li>
         <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Remove%20Duplicates%20From%20Sorted%20Array%20II.md"> Dec 11 - Remove Duplicates 
-          From Sorted Array II</a>
+          From Sorted Array II</a>(Also Part 1)
     </li>
     <li>
         <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.md"> Dec 12 - Lowest Common Ancestor of Deepest Leaves</a>
