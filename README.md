@@ -44,12 +44,17 @@ Just a place to document my solutions for the daily challenges.
     <li>
         <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Valid%20Mountain%20Array.md"> Dec 10 - Valid Mountain Array</a>
     </li>
+    <li>
+        <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Remove%20Duplicates%20From%20Sorted%20Array%20II.md"> Dec 11 - Remove Duplicates 
+          From Sorted Array II</a>
+    </li>
+    <li>
+        <a href = "https://github.com/hot9cups/leetcode-daily-challenge/blob/main/Solutions/Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.md"> Dec 12 - Lowest Common Ancestor of Deepest Leaves</a>
+    </li>
     
     
     
   </ul>
-  
-  Yeet first thing tomorrow morning.
   
   
 </details>
