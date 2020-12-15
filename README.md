@@ -57,5 +57,6 @@ Just a place to document my solutions for the daily challenges.
   Need for time for Burst Balloons
   Did partitioning substring today, kind of unsatisfied though.
 Will Upload tomorrow.
+So did today's in O(Nlogn), while it works, I still need some time to figure out the O(N) solution, not free today though.
   
 </details>
