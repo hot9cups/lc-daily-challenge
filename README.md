@@ -54,10 +54,6 @@ Just a place to document my solutions for the daily challenges.
     
     
   </ul>
-  Need for time for Burst Balloons
-  Did partitioning substring today, kind of unsatisfied though.
-Will Upload tomorrow.
-So did today's in O(Nlogn), while it works, I still need some time to figure out the O(N) solution, not free today though.
-Dah the struggle today.. Finally solved it. I'm drained now though. This is honestly getting too delayed, will fill up the backlogs tomorrow (OR DAY AFETR FOR SURE).
-  
+  29 Jan 2021 - Yikes. I yiked out. Did complete the challenges, on time, everyday, just didn't have enough time to update status here. <br>
+  On seconds thoughts, that probably isn't that bad. Gives me a chance to go over the problems a second time, spaced out revision. 
 </details>
